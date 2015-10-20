@@ -1,0 +1,75 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+}
+#container{
+	width:700px;
+	margin:auto;	
+}
+section{
+	margin-bottom:15px;
+}
+footer{
+	margin-top:15px;
+	border-top:#CCC 1px solid;
+	clear:both;
+	text-align:center;	
+}
+label, .label{
+	display:block;
+	width:350px;
+	float:left;
+	border-bottom:#CCC 1px dotted;
+	margin-bottom:15px;
+}
+label.inline, input.inline{
+	display:inline;
+	float:none;
+}
+legend{
+	font-weight:bold;
+	font-size:14px;
+	color:#333333;
+}
+fieldset{
+	margin-bottom:20px;
+	padding:5px 5px 15px 15px;
+}
+input.textfield{
+	width:250px;
+	margin-left:5px;	
+}
+input:focus, textarea:focus{
+	background-color:#B9F9B7;	
+}
+input, textarea{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+}
+textarea{
+	width:600px;	
+	height:60px;
+}
+.sendButton{
+	float:none;
+    border-color: #A0D629 #567D00 #567D00 #A0D629;
+    border-right: 1px solid #567D00;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    font-family: 'arial black',arial;
+    margin: 10px 0;
+    padding: 2px 10px;
+    text-align: center;
+    text-transform: uppercase;	
+	background-color:#567D00;
+}
+.sendButton:hover{
+	cursor:pointer;	
+	background-color:#F69;
+}
+p.right{
+	text-align:right;	
+}
+
