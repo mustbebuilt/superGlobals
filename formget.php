@@ -57,7 +57,7 @@
 
         <p>
             <label for="mailingList">Join mailing list</label>
-            <input type="checkbox" name="list" id="mailingList" value="1" />
+            <input type="checkbox" name="mailingList" id="mailingList" value="1" />
         </p>
         <p>
             <label for="marketing">How did you hear about us?</label>
@@ -75,7 +75,7 @@
 </form>
 </section>
 <footer>
-&copy; mustbebuilt 2017
+&copy; mustbebuilt 2020
 </footer>
 </div>
 </body>
